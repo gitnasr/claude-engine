@@ -3,6 +3,8 @@
 
 # Claude Server
 
+### THIS PROJECT IS A PART OF [Zolve Extension](https://github.com/gitnasr/zolve)
+
 Claude Server is a Python-based API server that integrates with the Claude API. It provides endpoints to send messages and create new chat sessions with support for file attachments.
 
 [![Build and Deploy Claude Server](https://github.com/gitnasr/claude-engine/actions/workflows/build.yml/badge.svg)](https://github.com/gitnasr/claude-engine/actions/workflows/build.yml)
