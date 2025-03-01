@@ -5,7 +5,7 @@ from app import ServerAPI
 from version import version as current_version
 
 if __name__ == "__main__":
-    endpoint = "https://api.github.com/repos/gitnasr/zolve/releases"
+    endpoint = "https://api.github.com/repos/gitnasr/claude-engine/releases"
 
     response = requests.get(endpoint)
     data = response.json()
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     if latest_version > current_version:
         print("There's a new version of Claude available. Please update your version.")
         print(f"Your version: claude-v1.0.1, Latest version: {latest_version}")
-        print("You can download the latest version from https://github.com/gitnasr/zolve/releases")
+        print("You can download the latest version from https://github.com/gitnasr/claude-engine/releases")
         input("Press Enter to continue...")
         exit()
     else:
