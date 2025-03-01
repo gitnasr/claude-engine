@@ -5,7 +5,7 @@
 
 Claude Server is a Python-based API server that integrates with the Claude API. It provides endpoints to send messages and create new chat sessions with support for file attachments.
 
-[![Build and Deploy Claude Server](https://github.com/gitnasr/Exam-Solver/actions/workflows/build.yml/badge.svg)](https://github.com/gitnasr/Exam-Solver/actions/workflows/build.yml)
+[![Build and Deploy Claude Server](https://github.com/gitnasr/claude-engine/actions/workflows/build.yml/badge.svg)](https://github.com/gitnasr/claude-engine/actions/workflows/build.yml)
 
 
 ## Project Structure
@@ -52,11 +52,10 @@ Claude Server is a Python-based API server that integrates with the Claude API. 
 ## Usage
 
 ### 1. Download the Latest Version for Windows
-- Download the latest version from [here](https://github.com/gitnasr/zolve/releases/latest).
+- Download the latest version from [here](https://github.com/gitnasr/claude-engine/releases/latest).
 
 ### 2. Running the Application Locally (Any other OS)
 - Clone this repository.
-- Checkout `claude-engine`.
 - Ensure all dependencies listed in `requirements.txt` are installed.
 - Run the server using:
   ```sh
@@ -80,8 +79,8 @@ We welcome contributions from the community! To contribute:
 
 2. **Clone the Repository**  
    ```sh
-   git clone https://github.com/gitnasr/zolver.git
-   cd zolver
+   git clone https://github.com/gitnasr/claude-engine
+   cd claude-engine
    ```
 
 3. **Create a Feature Branch**  
